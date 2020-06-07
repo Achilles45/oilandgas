@@ -158,7 +158,7 @@ export default {
       h1{
         text-align: center !important;
         font-weight: 700;
-        font-size: 1rem !important;
+        font-size: 1.5rem !important;
         padding-bottom: 1rem;
         letter-spacing: 0.4px;
         text-transform: uppercase;
@@ -171,7 +171,7 @@ export default {
     }
      .carousel-img {
     width: auto;
-    height: 80vh !important;
+    height: 65vh !important;
     display: block !important;
     width: 100vw;
   }
