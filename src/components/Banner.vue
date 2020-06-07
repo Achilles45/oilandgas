@@ -151,7 +151,7 @@ export default {
   }
     .carousel-caption{
       position: absolute;
-      top: 5%;
+      top: 10%;
       transform: translateX(-50%, -50%);
       width: 70% !important;
       text-align: center !important;
@@ -171,7 +171,7 @@ export default {
     }
      .carousel-img {
     width: auto;
-    height: 55vh !important;
+    height: 80vh !important;
     display: block !important;
     width: 100vw;
   }

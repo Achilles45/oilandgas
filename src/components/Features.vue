@@ -69,7 +69,7 @@ export default {
                 font-weight: bold;
                 padding-top: 1rem;
                 padding-bottom: .7rem;
-                color: #2b2b2b;
+                color: #000;
                 line-height: 1.5;
             }
             p{

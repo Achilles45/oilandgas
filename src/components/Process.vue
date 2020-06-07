@@ -99,4 +99,12 @@ export default {
         line-height: 1.8;
     }
 }
+
+//Media Queries
+@media only screen and (max-width: 600px){
+    h2{
+        font-size: 1.5rem !important;
+        line-height: 1.6;
+    }
+}
 </style>
