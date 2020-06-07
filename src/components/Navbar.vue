@@ -136,7 +136,7 @@ export default {
         height: 100vh;
         bottom: 0;
         left: 0;
-        top: 10%;
+        top: 12%;
         display: none;
         ul{
             flex-direction: column;
@@ -145,7 +145,7 @@ export default {
                 line-height: 4;
             }
             .login{
-                border: 1px solid #fff !important;
+                border: 1px solid $secondary-color !important;
                 color: #fff !important;
             }
         }

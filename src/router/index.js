@@ -8,6 +8,7 @@ import Dashboard from '../views/Dashboard.vue'
 import Profile from '../views/Profile.vue'
 import Payment from '../views/Payment.vue'
 import Withdrawal from '../views/Withdrawal.vue'
+import Upload from '../views/Upload'
 import firebase from 'firebase'
 Vue.use(VueRouter)
 
@@ -60,6 +61,14 @@ Vue.use(VueRouter)
     path: '/dashboard/payment',
     name: 'Payment',
     component: Payment,
+    meta:{
+      requiresAuth: true
+    }
+  },
+  {
+    path: '/dashboard/upload',
+    name: 'Upload',
+    component: Upload,
     meta:{
       requiresAuth: true
     }
