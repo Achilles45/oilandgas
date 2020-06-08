@@ -203,6 +203,17 @@ export default {
         // padding: 3rem 2.5rem;
         .right__wrapper{
               padding: 1rem 2rem;
+              .heading{
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  position: relative;
+                  .navbar__toggler{
+                      color:$primary-color;
+                      position: absolute;
+                      right: 5%;
+                  }
+              }
         }
         h4{
            font-weight: 400;
