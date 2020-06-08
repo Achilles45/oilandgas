@@ -17,13 +17,13 @@
                <div class="card__content">
                   <img src="../assets/images/chart.svg" class="icons" alt="">
                   <h3>AMAZING GROWTH OPPORTUNITIES</h3>
-                  <p>You will get profit of 50% ROI in 3 days on your first. No stress, no stories!</p>
+                  <p>You will get your 50% ROI in 5 working days on your initial and 44 hours for the promo plan. No stress, no stories!</p>
                    <router-link to="/signup" class="card__btn">Get Started</router-link><br><br>
               </div>
                <div class="card__content">
                   <img src="../assets/images/bank.svg" class="icons" alt="">
                   <h3>FAST AND EASY WITHDRAWAL</h3>
-                  <p>We provide you with an easy way to withdraw your money straight to your bank account.</p>
+                  <p>We provide you with an easy way to withdraw your money directly to your bank account.</p>
                    <router-link to="/signup" class="card__btn">Get Started</router-link><br><br>
               </div>
           </div>

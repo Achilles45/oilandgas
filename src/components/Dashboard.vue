@@ -31,7 +31,7 @@
                  </div>
                </div>
               <div class="right__wrapper">
-                  <div class="heading d-flex justify-content-between">
+                  <div class="heading">
                   <div class="content">
                    <h5>Welcome Back!</h5>
                       <h4>{{ name }}</h4>
@@ -84,7 +84,7 @@
               </div>
               </div>
               <hr>
-              <p class="note">Kindly note that your investment lifecycle will only begin to count when you have been verified to have made payment for your selected plan. Your returns of 50% of your investment and your capital would be paid back in 3 working days. Also, should you find any difficulties in using the platform, kindly use livechat widget to send a message and our customer success team will respond as soon as possible. Happy investing.</p>
+              <p class="note">Kindly note that your investment lifecycle will only begin to count when you have been verified to have made payment for your selected plan. Your returns of 50% of your investment and your capital would be paid back in 5 working days. Also, should you find any difficulties in using the platform, kindly use livechat widget to send a message and our customer success team will respond as soon as possible. Happy investing.</p>
               </div>
             <!--End of Dashboard
             =========================-->
@@ -199,6 +199,17 @@ export default {
         // padding: 3rem 2.5rem;
         .right__wrapper{
               padding: 2rem 2rem;
+              .heading{
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  position: relative;
+                  .navbar__toggler{
+                      color:$primary-color;
+                      position: absolute;
+                      right: 5%;
+                  }
+              }
         }
        small{
             color:#627081;
@@ -260,6 +271,7 @@ export default {
             color: #627081 !important;
             font-size: .8rem;
             line-height: 1.7;
+            font-weight: 400;
         }
             //REQUEST FORM
             form{
