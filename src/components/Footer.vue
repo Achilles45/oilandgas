@@ -14,7 +14,7 @@
                  <h6><i class="fa fa-envelope"></i>Email Address</h6>
                 <p>Investmentoilandgas86@gmail.com</p>
                  <h6><i class="fa fa-phone"></i>Phone</h6>
-                <p><a href="tel:08094986967"> 07044387160</a></p>
+                <p><a href="tel:08166528985"> 08166528985</a></p>
               </div>
               <div class="col-md-4">
                   <h5>Payment Method</h5>
